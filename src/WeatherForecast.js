@@ -4,7 +4,7 @@ export default function WeatherForecast() {
     <div className="Forecast-container">
       <span>Sunday</span>
       <span>🌧️</span>
-      <span>10 | 5 °C</span>
+      <span>Max: 10°C | Min: 5°C</span>
     </div>
   );
 }

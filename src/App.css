@@ -15,3 +15,9 @@ footer {
   text-align: center;
   letter-spacing: 1px;
 }
+
+footer a {
+  text-decoration: none;
+  color: rgb(231, 134, 205);
+  font-weight: bold;
+}

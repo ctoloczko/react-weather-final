@@ -39,7 +39,7 @@
 h2 {
   font-size: 34px;
   margin-left: 30px;
-  font-weight: 500;
+  font-weight: 550;
   letter-spacing: 5px;
 }
 
@@ -59,15 +59,12 @@ p {
   margin: 0;
 }
 
-.Icon {
-  font-size: 56px;
-}
 .Current-date {
   font-size: 16px;
   text-align: end;
   padding-right: 30px;
   letter-spacing: 4px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .Weather-details {
