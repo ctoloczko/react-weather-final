@@ -30,7 +30,7 @@ export default function WeatherForecastDay(props) {
   return (
     <div className="Forecast-container">
       <div className="row align-items-center">
-        <div className="col-4">{day()}</div>
+        <div className="col-4  text-center">{day()}</div>
         <div className="col-3">
           <WeatherIcon code={props.data.condition.icon} size={40} />
         </div>
