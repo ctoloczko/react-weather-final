@@ -18,7 +18,7 @@ export default function Weather(props) {
       wind: response.data.wind.speed,
       pressure: response.data.temperature.pressure,
       perception: response.data.temperature.feels_like,
-      icon: response.data.condition.icon_url,
+      icon: response.data.condition.icon,
     });
   }
 

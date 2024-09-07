@@ -43,6 +43,9 @@ h2 {
   letter-spacing: 5px;
 }
 
+canvas {
+  padding: 15px 15px 0 13px;
+}
 p {
   font-size: 20px;
 }
