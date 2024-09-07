@@ -75,6 +75,10 @@ p {
   margin-right: 10px;
   letter-spacing: 1px;
 }
+
+.Weather-details p {
+  line-height: 1.5;
+}
 .Current-day-container {
   background-color: #f4c5af;
   margin: 15px 0;
