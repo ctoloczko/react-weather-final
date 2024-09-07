@@ -1,10 +1,12 @@
 .Weather-app {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 50px 30px;
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
   font-family: "Amatic SC", sans-serif;
   font-weight: 700;
   font-style: normal;
+  background-color: #f5f5ae;
+  border-radius: 5px;
 }
 
 footer {

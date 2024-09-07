@@ -1,1 +1,93 @@
+.Search-form {
+  background-color: #a5d5de;
+  padding: 20px;
+  margin: 0 0 15px 0;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  max-width: 500px;
+  gap: 10px;
+}
 
+.Search-form input[type="search"] {
+  flex: 1;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.Search-form input[type="submit"] {
+  padding: 3px 30px;
+  background-color: #edf0f4;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: #131212;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s;
+}
+
+.Search-form input[type="submit"]:hover {
+  background-color: #234366;
+  color: #edf0f4;
+}
+
+h2 {
+  font-size: 34px;
+  margin-left: 30px;
+  font-weight: 500;
+  letter-spacing: 5px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.City {
+  font-size: 56px;
+  margin: 10px;
+  letter-spacing: 4px;
+  border-top: dashed rgb(0, 0, 0, 0.3);
+  border-bottom: dashed rgb(0, 0, 0, 0.3);
+}
+.Temperature {
+  font-size: 66px;
+  margin: 0;
+}
+
+.Icon {
+  font-size: 56px;
+}
+.Current-date {
+  font-size: 16px;
+  text-align: end;
+  padding-right: 30px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}
+
+.Weather-details {
+  margin-top: 40px;
+  margin-right: 10px;
+  letter-spacing: 1px;
+}
+.Current-day-container {
+  background-color: #f4c5af;
+  margin: 15px 0;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.Forecast-container {
+  background-color: #c4a3c3;
+  margin: 15px 0;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
