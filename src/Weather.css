@@ -43,9 +43,10 @@ h2 {
   letter-spacing: 5px;
 }
 
-canvas {
+.Canvas-main {
   padding: 15px 15px 0 13px;
 }
+
 p {
   font-size: 20px;
 }
@@ -79,6 +80,7 @@ p {
 .Weather-details p {
   line-height: 1.5;
 }
+
 .Current-day-container {
   background-color: #f4c5af;
   margin: 15px 0;
@@ -89,10 +91,9 @@ p {
 .Forecast-container {
   background-color: #c4a3c3;
   margin: 15px 0;
-  padding: 10px;
+  padding: 3px 10px;
   border-radius: 5px;
-  font-size: 20px;
-  display: flex;
-  justify-content: space-around;
+  font-size: 22px;
   align-items: center;
+  line-height: 1.2;
 }

@@ -8,8 +8,8 @@ export default function WeatherInfo(props) {
       <FormattedDate date={props.data.date} />
       <div className="City text-center">📍{props.data.city}</div>
       <div className="row mt-3">
-        <div className="col text-center">
-          <WeatherIcon code={props.data.icon} />
+        <div className="col text-center Canvas-main">
+          <WeatherIcon code={props.data.icon} size={80} />
 
           <p>{props.data.description}</p>
         </div>
