@@ -2,16 +2,14 @@ import React, { useState } from "react";
 import "./Weather.css";
 import WeatherForecast from "./WeatherForecast";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function Weather(props) {
   const [weatherData, setWeatherData] = useState({ ready: false });
   function handleResponse(response) {
-    console.log(response.data);
     setWeatherData({
       ready: true,
-      day: "Saturday",
-      date: "7 September",
-      time: "9:23pm",
+      date: new Date(response.data.time * 1000),
       temperature: response.data.temperature.current,
       city: response.data.city,
       description: response.data.condition.description,
@@ -32,15 +30,7 @@ export default function Weather(props) {
             <input type="submit" value="Search" />
           </form>
           <div className="Current-day-container">
-            <div className="row">
-              <div className="col-7">
-                <h2>{weatherData.day}</h2>
-              </div>
-              <div className="col-5 Current-date">
-                <div>{weatherData.date}</div>
-                <div>{weatherData.time}</div>
-              </div>
-            </div>
+            <FormattedDate date={weatherData.date} />
             <div className="City text-center">📍{weatherData.city}</div>
             <div className="row mt-3">
               <div className="col text-center">
@@ -52,7 +42,7 @@ export default function Weather(props) {
                   {Math.round(weatherData.temperature)}°C
                 </div>
 
-                <p>Feels like: {weatherData.perception}° </p>
+                <p>Feels like: {Math.round(weatherData.perception)}° </p>
               </div>
               <div className="col Weather-details text-end">
                 <p className="m-0">Humidity: {weatherData.humidity}% </p>
