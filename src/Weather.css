@@ -14,7 +14,8 @@
   padding: 7px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  font-size: 16px;
+  font-size: 18px;
+  letter-spacing: 3px;
 }
 
 .Search-form input[type="submit"] {
